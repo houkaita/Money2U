@@ -1,0 +1,72 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  color: #e6e6e6 !important;
+  font-size: 18px;
+  margin: 10px;
+}
+
+main {
+  background: URL("https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
+  height: 1100px;
+  background-size: cover;
+  background-position: center;
+  background-color: #606060;
+  background-blend-mode: multiply;
+}
+
+nav {
+  height: 75px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-top: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-text {
+  font-size: 35px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.analyse-requirements-first {
+  font-size: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2%;
+  letter-spacing: 1px;
+}
+
+.analyse-requirements-second {
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  font-size: 20px !important;
+  transition: ease 300ms;
+}
+
+.botao {
+  margin-top: 8%;
+  margin-left: 41%;
+}/*# sourceMappingURL=Style.css.map */
