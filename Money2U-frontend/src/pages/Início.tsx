@@ -3,7 +3,6 @@ import { MyModal } from "../components/MyModal"
 
 export function Incício() {
   return (
-    <main>
       <Container>
         <div className="video-responsive">
           <iframe
@@ -33,6 +32,5 @@ export function Incício() {
         </div>
         <MyModal></MyModal>
       </Container>
-    </main>
   );
 }

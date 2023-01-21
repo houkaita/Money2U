@@ -4,7 +4,7 @@ import { GiReceiveMoney } from "react-icons/gi";
 export function Navbar() {
   return (
     <nav>
-      <Navbarbs className="bg-secondary shadow-lg mb-7">
+      <Navbarbs className="bg-transparent shadow-lg mb-7">
         <Container>
           <Nav className="me-auto" variant="dark">
             <Nav.Link>Incício</Nav.Link>
