@@ -23,4 +23,8 @@ app.use(morgan('dev'));
 
 app.use(require('./routes'));
 
-app.listen(3000);
+let port = process.env.PORT;
+
+app.listen(port, () => {
+  console.log('Running of port '+ port)
+});
