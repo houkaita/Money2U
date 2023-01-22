@@ -8,7 +8,7 @@
 
 .nav-link {
   color: #e6e6e6 !important;
-  font-size: 18px;
+  font-size: 16px;
   margin: 10px;
 }
 
@@ -21,12 +21,6 @@ main {
   background-blend-mode: multiply;
 }
 
-nav {
-  height: 75px;
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 .video-responsive {
   overflow: hidden;
   padding-top: 7%;
@@ -36,7 +30,7 @@ nav {
 }
 
 .first-text {
-  font-size: 35px;
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
@@ -44,18 +38,17 @@ nav {
 }
 
 .analyse-requirements-first {
-  font-size: 20px;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 2%;
   text-align: center;
   font-weight: 400;
-  margin-top: 2%;
   letter-spacing: 1px;
 }
 
 .analyse-requirements-second {
-  font-size: 18px;
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2%;
@@ -64,13 +57,39 @@ nav {
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 600px) {
+  .first-text {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .analyse-requirements-first {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .analyse-requirements-second {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 .nav-link:hover {
   color: #fff !important;
-  font-size: 20px !important;
+  font-size: 17px !important;
   transition: ease 300ms;
 }
 
 .botao {
-  margin-top: 7%;
-  margin-left: 41%;
+  display: flex;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar.scrolled {
+  background-color: #333 !important;
+  transition: ease 500ms;
 }/*# sourceMappingURL=Style.css.map */

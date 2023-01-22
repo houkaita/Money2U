@@ -19,7 +19,7 @@ export function Incício() {
             Para analisarmos os possíveis créditos e adequações, precisaremos
             dos seguintes dados:
           </h1>
-          <h3 className="text-white analyse-requirements-first">
+          <h3 className="text-white analyse-requirements-first ">
             XML das notas fiscais emitidas no ano de 2020 e/ou 2021 Extrato do
             Simples Nacional do mesmo período. Melhores resultados para :
           </h3>

@@ -1,5 +1,6 @@
-import { Navbar } from "./pages/Navbar";
 import { Incício } from "./pages/Início";
+import { About } from "./pages/About"
+import { Navbar } from "./pages/Navbar"
 import "react-bootstrap";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Incício />
       </main>
+      <About/>
     </>
   );
 }
