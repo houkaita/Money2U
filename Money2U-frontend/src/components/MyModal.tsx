@@ -15,7 +15,7 @@ export function MyModal() {
         Solicitar Diagnóstico
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} style={{}}>
         <Modal.Header closeButton>
           <Modal.Title>Diagnóstico</Modal.Title>
         </Modal.Header>
@@ -40,7 +40,7 @@ export function MyModal() {
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Celular</Form.Label>
               <Form.Control
-                type="number"
+                type="tell"
                 placeholder="(99) 99999-9999"
                 autoFocus
               />
